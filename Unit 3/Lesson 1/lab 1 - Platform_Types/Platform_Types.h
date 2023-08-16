@@ -27,25 +27,24 @@
 #define TRUE 		(_bool)true
 #endif /* TRUE */
 
-typedef _Bool 		_bool;
-typedef int8_t 		sint8;
-typedef uint8_t 	uint8;
-typedef int16_t 	sint16;
-typedef uint16_t 	uint16;
-typedef int32_t 	sint32;
-typedef uint32_t 	uint32;
-typedef int64_t 	sint64;
-typedef uint64_t 	uint64;
+typedef _Bool 						_bool;
+typedef signed char 				int8;
+typedef unsigned char				uint8;
+typedef signed short 				sint16;
+typedef unsigned short 				uint16;
+typedef signed int 					sint32;
+typedef unsigned int 				uint32;
+typedef signed long long 			sint64;
+typedef unsigned long long 			uint64;
 
 
-typedef volatile int8_t 	vint8;
-typedef volatile uint8_t 	vuint8;
-typedef volatile int16_t 	vint16;
-typedef volatile uint16_t 	vuint16;
-typedef volatile int32_t 	vint32;
-typedef volatile uint32_t 	vuint32;
-typedef volatile int64_t 	vint64;
-typedef volatile uint64_t 	vuint64;
-
+typedef volatile signed char 		vint8;
+typedef volatile unsigned char 		vuint8;
+typedef volatile signed short  		vint16;
+typedef volatile unsigned short  	vuint16;
+typedef volatile signed int  		vint32;
+typedef volatile unsigned int  		vuint32;
+typedef volatile signed long long 	vint64;
+typedef volatile unsigned long long vuint64;
 
 #endif /* PLATFORM_TYPES_H_ */
