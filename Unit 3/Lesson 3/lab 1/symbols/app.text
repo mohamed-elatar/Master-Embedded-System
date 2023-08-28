@@ -1,0 +1,4 @@
+00000000 T main
+00000000 D string_1
+00000000 R string_2
+         U UART_Vsend_string
