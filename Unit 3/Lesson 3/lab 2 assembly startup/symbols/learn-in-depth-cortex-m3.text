@@ -1,0 +1,7 @@
+         U _reset
+08000100 t _reset
+08000108 T const_variable
+08000110 D g_variable
+08000050 T main
+0800010c D R_ODR
+08000106 t Vector_handler
