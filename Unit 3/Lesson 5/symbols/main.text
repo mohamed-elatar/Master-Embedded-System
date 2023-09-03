@@ -1,0 +1,11 @@
+         U _E_Bss
+00000000 T _sbrk
+00000000 B bss_variable
+00000000 R const_variable
+         U free
+00000004 D g_variable
+00000004 b heap_ptr.4635
+00000084 T main
+         U malloc
+         U max_heap
+00000000 D R_ODR
