@@ -1,0 +1,107 @@
+	 ----> Ultrasonic inti <---- 
+	 ----> DC_motor init <---- 
+Ultrasonic_busy state : detect distance = 53 
+Ultrasonic ------- distance = 53 --------> Collision_Avoidance 
+Collision_driving state now: distance = 53 , speed = 0 
+Collision ------ speed = 30 ------> DC_motor 
+DC_busy state : speed = 30 
+
+
+Ultrasonic_busy state : detect distance = 54 
+Ultrasonic ------- distance = 54 --------> Collision_Avoidance 
+Collision_driving state now: distance = 54 , speed = 30 
+Collision ------ speed = 30 ------> DC_motor 
+DC_busy state : speed = 30 
+
+
+Ultrasonic_busy state : detect distance = 54 
+Ultrasonic ------- distance = 54 --------> Collision_Avoidance 
+Collision_driving state now: distance = 54 , speed = 30 
+Collision ------ speed = 30 ------> DC_motor 
+DC_busy state : speed = 30 
+
+
+Ultrasonic_busy state : detect distance = 46 
+Ultrasonic ------- distance = 46 --------> Collision_Avoidance 
+Collision waiting state : distance = 46 , speed = 30 
+Collision ------ speed = 0 ------> DC_motor 
+DC_busy state : speed = 0 
+
+
+Ultrasonic_busy state : detect distance = 52 
+Ultrasonic ------- distance = 52 --------> Collision_Avoidance 
+Collision_driving state now: distance = 52 , speed = 0 
+Collision ------ speed = 30 ------> DC_motor 
+DC_busy state : speed = 30 
+
+
+Ultrasonic_busy state : detect distance = 50 
+Ultrasonic ------- distance = 50 --------> Collision_Avoidance 
+Collision waiting state : distance = 50 , speed = 30 
+Collision ------ speed = 0 ------> DC_motor 
+DC_busy state : speed = 0 
+
+
+Ultrasonic_busy state : detect distance = 50 
+Ultrasonic ------- distance = 50 --------> Collision_Avoidance 
+Collision waiting state : distance = 50 , speed = 0 
+Collision ------ speed = 0 ------> DC_motor 
+DC_busy state : speed = 0 
+
+
+Ultrasonic_busy state : detect distance = 55 
+Ultrasonic ------- distance = 55 --------> Collision_Avoidance 
+Collision_driving state now: distance = 55 , speed = 0 
+Collision ------ speed = 30 ------> DC_motor 
+DC_busy state : speed = 30 
+
+
+Ultrasonic_busy state : detect distance = 46 
+Ultrasonic ------- distance = 46 --------> Collision_Avoidance 
+Collision waiting state : distance = 46 , speed = 30 
+Collision ------ speed = 0 ------> DC_motor 
+DC_busy state : speed = 0 
+
+
+Ultrasonic_busy state : detect distance = 45 
+Ultrasonic ------- distance = 45 --------> Collision_Avoidance 
+Collision waiting state : distance = 45 , speed = 0 
+Collision ------ speed = 0 ------> DC_motor 
+DC_busy state : speed = 0 
+
+
+Ultrasonic_busy state : detect distance = 52 
+Ultrasonic ------- distance = 52 --------> Collision_Avoidance 
+Collision_driving state now: distance = 52 , speed = 0 
+Collision ------ speed = 30 ------> DC_motor 
+DC_busy state : speed = 30 
+
+
+Ultrasonic_busy state : detect distance = 52 
+Ultrasonic ------- distance = 52 --------> Collision_Avoidance 
+Collision_driving state now: distance = 52 , speed = 30 
+Collision ------ speed = 30 ------> DC_motor 
+DC_busy state : speed = 30 
+
+
+Ultrasonic_busy state : detect distance = 50 
+Ultrasonic ------- distance = 50 --------> Collision_Avoidance 
+Collision waiting state : distance = 50 , speed = 30 
+Collision ------ speed = 0 ------> DC_motor 
+DC_busy state : speed = 0 
+
+
+Ultrasonic_busy state : detect distance = 53 
+Ultrasonic ------- distance = 53 --------> Collision_Avoidance 
+Collision_driving state now: distance = 53 , speed = 0 
+Collision ------ speed = 30 ------> DC_motor 
+DC_busy state : speed = 30 
+
+
+Ultrasonic_busy state : detect distance = 51 
+Ultrasonic ------- distance = 51 --------> Collision_Avoidance 
+Collision_driving state now: distance = 51 , speed = 30 
+Collision ------ speed = 30 ------> DC_motor 
+DC_busy state : speed = 30 
+
+
