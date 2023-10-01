@@ -1,0 +1,9 @@
+   text	   data	    bss	    dec	    hex	filename
+    244	      0	      0	    244	     f4	Alarm_Actuator_driver.o
+    176	      0	      0	    176	     b0	Alarm_Monitor.o
+    204	      4	      4	    212	     d4	Main_Algorithm.o
+    160	      0	      0	    160	     a0	Pressure_Sensor_Driver.o
+    268	      0	      0	    268	    10c	driver.o
+    148	      0	      0	    148	     94	main.o
+    216	      0	      0	    216	     d8	startup.o
+   1416	      4	   1056	   2476	    9ac	pressure_project.elf
