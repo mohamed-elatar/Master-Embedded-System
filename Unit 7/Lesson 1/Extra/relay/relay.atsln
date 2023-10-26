@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "relay", "relay\relay.cproj", "{09D11FF4-B11B-42D9-9861-8F9E723E964E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09D11FF4-B11B-42D9-9861-8F9E723E964E}.Debug|AVR.ActiveCfg = Debug|AVR
+		{09D11FF4-B11B-42D9-9861-8F9E723E964E}.Debug|AVR.Build.0 = Debug|AVR
+		{09D11FF4-B11B-42D9-9861-8F9E723E964E}.Release|AVR.ActiveCfg = Release|AVR
+		{09D11FF4-B11B-42D9-9861-8F9E723E964E}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

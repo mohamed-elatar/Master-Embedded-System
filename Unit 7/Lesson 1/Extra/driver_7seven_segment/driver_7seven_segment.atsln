@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "driver_7seven_segment", "driver_7seven_segment\driver_7seven_segment.cproj", "{26443D70-08CE-4A71-92F4-A96E6456099D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26443D70-08CE-4A71-92F4-A96E6456099D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{26443D70-08CE-4A71-92F4-A96E6456099D}.Debug|AVR.Build.0 = Debug|AVR
+		{26443D70-08CE-4A71-92F4-A96E6456099D}.Release|AVR.ActiveCfg = Release|AVR
+		{26443D70-08CE-4A71-92F4-A96E6456099D}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
