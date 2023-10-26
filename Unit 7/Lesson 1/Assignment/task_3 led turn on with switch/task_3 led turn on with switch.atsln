@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "task_3 led turn on with switch", "task_3 led turn on with switch\task_3 led turn on with switch.cproj", "{EAD74C6E-F31E-4D27-A507-07D9F63C8AE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAD74C6E-F31E-4D27-A507-07D9F63C8AE0}.Debug|AVR.ActiveCfg = Debug|AVR
+		{EAD74C6E-F31E-4D27-A507-07D9F63C8AE0}.Debug|AVR.Build.0 = Debug|AVR
+		{EAD74C6E-F31E-4D27-A507-07D9F63C8AE0}.Release|AVR.ActiveCfg = Release|AVR
+		{EAD74C6E-F31E-4D27-A507-07D9F63C8AE0}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
