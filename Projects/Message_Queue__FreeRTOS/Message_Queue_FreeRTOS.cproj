@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>6.0</ProjectVersion>
+    <ToolchainName>com.Atmel.AVRGCC8</ToolchainName>
+    <ProjectGuid>{2ff8a940-ead1-4086-8f7b-b0b02f7dd2cc}</ProjectGuid>
+    <avrdevice>ATmega32</avrdevice>
+    <avrdeviceseries>none</avrdeviceseries>
+    <OutputType>Executable</OutputType>
+    <Language>C</Language>
+    <OutputFileName>$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.elf</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <AssemblyName>Message_Queue_FreeRTOS</AssemblyName>
+    <Name>Message_Queue_FreeRTOS</Name>
+    <RootNamespace>Message_Queue_FreeRTOS</RootNamespace>
+    <ToolchainFlavour>Native</ToolchainFlavour>
+    <KeepTimersRunning>true</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <OverrideVtorValue />
+    <eraseonlaunchrule>0</eraseonlaunchrule>
+    <AsfVersion>3.5.0</AsfVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <AvrGcc>
+        <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+        <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+        <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+        <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+        <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+        <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+        <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
+        <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+        <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+        <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+        <avrgcc.linker.libraries.Libraries>
+          <ListValues>
+            <Value>m</Value>
+          </ListValues>
+        </avrgcc.linker.libraries.Libraries>
+      </AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <AvrGcc>
+  <avrgcc.common.outputfiles.hex>True</avrgcc.common.outputfiles.hex>
+  <avrgcc.common.outputfiles.lss>True</avrgcc.common.outputfiles.lss>
+  <avrgcc.common.outputfiles.eep>True</avrgcc.common.outputfiles.eep>
+  <avrgcc.common.outputfiles.srec>True</avrgcc.common.outputfiles.srec>
+  <avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>True</avrgcc.compiler.general.ChangeDefaultCharTypeUnsigned>
+  <avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>True</avrgcc.compiler.general.ChangeDefaultBitFieldUnsigned>
+  <avrgcc.compiler.optimization.level>Optimize (-O1)</avrgcc.compiler.optimization.level>
+  <avrgcc.compiler.optimization.PackStructureMembers>True</avrgcc.compiler.optimization.PackStructureMembers>
+  <avrgcc.compiler.optimization.AllocateBytesNeededForEnum>True</avrgcc.compiler.optimization.AllocateBytesNeededForEnum>
+  <avrgcc.compiler.optimization.DebugLevel>Default (-g2)</avrgcc.compiler.optimization.DebugLevel>
+  <avrgcc.compiler.optimization.OtherDebuggingFlags>-gdwarf-2</avrgcc.compiler.optimization.OtherDebuggingFlags>
+  <avrgcc.compiler.warnings.AllWarnings>True</avrgcc.compiler.warnings.AllWarnings>
+  <avrgcc.linker.libraries.Libraries>
+    <ListValues>
+      <Value>m</Value>
+    </ListValues>
+  </avrgcc.linker.libraries.Libraries>
+  <avrgcc.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcc.assembler.debugging.DebugLevel>
+</AvrGcc>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="configure_lcd.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dio.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="dio.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\croutine.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\deprecated_definitions.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\event_groups.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\event_groups.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\FreeRTOS.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\FreeRTOSConfig.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\heap_2.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\list.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\list.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\mpu_prototypes.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\mpu_wrappers.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\port.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\portable.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\portmacro.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\projdefs.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\queue.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\queue.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\semphr.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\StackMacros.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\task.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\tasks.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="FreeRTOS\timers.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Keybad.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Keybad.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="lcd.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="lcd.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Message_Queue_FreeRTOS.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="standard_macros.h">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FreeRTOS" />
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
+</Project>
